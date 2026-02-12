@@ -26,3 +26,11 @@ function convertKilogramsToPounds() {
   document.getElementById("kilograms-pounds-result").textContent =
     pounds.toFixed(2) + " pounds";
 }
+
+function increment() {
+  document.getElementById("input-value").value++;
+}
+
+function decrement() {
+  document.getElementById("input-value").value--;
+}

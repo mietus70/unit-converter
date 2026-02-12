@@ -25,6 +25,37 @@ body {
   align-items: center;
   margin-bottom: 20px;
   padding-bottom: 20px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.input-group button {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  background-color: #6843ff;
+  border-radius: 5px;
+  border: 1px solid #b295ff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+  appearance: none;
+}
+
+.input-group .minus {
+  cursor: pointer;
+}
+
+.input-group .plus {
+  cursor: pointer;
+}
+
+.input-group .minus:hover {
+  background-color: #b295ff;
+}
+
+.input-group .plus:hover {
+  background-color: #b295ff;
 }
 
 .input-group input {
@@ -80,5 +111,24 @@ body {
 }
 
 #convert-btn:hover {
+  background-color: #b295ff;
+}
+
+/* Input value */
+#input-value:focus {
+  outline: none;
+}
+
+#input-value::-webkit-inner-spin-button,
+#input-value::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#input-value {
+  margin-top: 10px;
+}
+
+#input-value:hover {
   background-color: #b295ff;
 }

@@ -11,13 +11,17 @@
     <div class="container">
       <div class="input-group">
         <h1>Metric/Imperial Unit Converter</h1>
-        <input
-          type="number"
-          id="input-value"
-          placeholder="0"
-          min="0"
-          value="0"
-        />
+        <div class="input-group-item">
+          <button type="button" class="minus" onclick="decrement()">-</button>
+          <input
+            type="number"
+            id="input-value"
+            placeholder="0"
+            min="0"
+            value="0"
+          />
+          <button type="button" class="plus" onclick="increment()">+</button>
+        </div>
         <button id="convert-btn" onclick="convertAll()">Convert</button>
       </div>
       <div class="output-group">
