@@ -1,0 +1,84 @@
+body {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  background-color: #1f2937;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.container h1 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  width: 100%;
+  background-color: #6843ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.input-group input {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  background-color: #6843ff;
+  border-radius: 5px;
+  border: 1px solid #b295ff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+  appearance: none;
+}
+
+.input-group select {
+  width: 200px;
+  height: 30px;
+}
+
+.output-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.output-group-item {
+  background-color: #273549;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.output-group input {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.output-group select {
+  width: 200px;
+  height: 30px;
+}
+
+#convert-btn {
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+#convert-btn:hover {
+  background-color: #b295ff;
+}
